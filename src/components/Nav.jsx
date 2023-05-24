@@ -1,13 +1,19 @@
 // npm modules
-import { NavLink } from "react-router-dom"
+import { NavLink, useLocation } from "react-router-dom"
 
 // assets
 import "../styles/Nav.css"
 import { Reorder } from "@mui/icons-material"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 const Nav = () => {
   const [expandNavBar, setExpandNavBar] = useState(false)
+
+  const location = useLocation()
+
+  useEffect(() => {
+    setExpandNavBar(false)
+  }, [location])
 
   return (
     <div className="navbar" id={expandNavBar ? "open" : "close"}>
