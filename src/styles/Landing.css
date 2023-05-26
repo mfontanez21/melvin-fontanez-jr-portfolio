@@ -14,7 +14,7 @@
   align-items: center;
   text-align: center;
   background-color: #455954;
-  color: #f0f0f0;
+  color: #dfdbd8;
 }
 
 .about h2 {
@@ -40,10 +40,12 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  background-color: #dfdbd8;
+  color: #455954;
 }
 
 .skills h1 {
-  color: #3e497a;
+  color: #455954;
 }
 
 .skills .list {

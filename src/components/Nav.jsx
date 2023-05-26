@@ -1,5 +1,6 @@
 // npm modules
 import { NavLink, useLocation } from "react-router-dom"
+import {HashLink} from react
 
 // assets
 import "../styles/Nav.css"
@@ -27,7 +28,7 @@ const Nav = () => {
       </div>
     <div className="links">
       <NavLink to="/">Home</NavLink>
-      <NavLink to="/about">About</NavLink>
+      <NavLink to="/skills">Skills</NavLink>
       <NavLink to="/portfolio">Portfolio</NavLink>
       <NavLink to ="/experience">Experience</NavLink>
     </div>
