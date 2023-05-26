@@ -8,6 +8,7 @@ import Landing from './components/Landing'
 import Nav from './components/Nav'
 import Footer from './components/Footer'
 import Skills from './components/Skills'
+import Portfolio from './components/Portfolio'
 
 import "./App.css"
 
@@ -17,6 +18,7 @@ const App = () => {
       <Nav />
       <Landing/>
       <Skills/>
+      <Portfolio/>
       <Footer />
     </>
   )

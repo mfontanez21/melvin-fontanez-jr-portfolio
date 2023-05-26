@@ -9,7 +9,8 @@ function footer () {
   return(
     <div className="footer">
     <div className="socialMedia"> 
-    <Link to={"https://www.linkedin.com/in/melvin-fontanez-jr-a71255270/"} target="_blank" rel="noreferrer">
+    <Link to={"https://www.linkedin.com/in/melvin-fontanez-jr/"} target="_blank" rel="noreferrer">
+      
       <LinkedIn />
     </Link>
     <Link to={"https://twitter.com/_mfjr"} target="_blank" rel="noreferrer">
