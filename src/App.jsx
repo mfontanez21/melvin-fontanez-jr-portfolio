@@ -2,11 +2,12 @@
 
 
 // pages
-import Landing from './pages/Landing/Landing'
+import Landing from './components/Landing'
 
 // components
 import Nav from './components/Nav'
 import Footer from './components/Footer'
+import Skills from './components/Skills'
 
 import "./App.css"
 
@@ -15,6 +16,7 @@ const App = () => {
     <>
       <Nav />
       <Landing/>
+      <Skills/>
       <Footer />
     </>
   )

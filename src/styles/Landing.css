@@ -2,19 +2,18 @@
   width: 100%;
   align-items: center;
   font-family: "Arial", sans-serif;
-  color: #3e497a;
 }
 
 .about {
   width: 100%;
-  height: calc(100vh - 100px);
+  height: calc(100vh - 75px);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   background-color: #455954;
-  color: #dfdbd8;
+  color: var(--linen);
 }
 
 .about h2 {
@@ -30,7 +29,7 @@
 .prompt svg {
   font-size: 60px;
   margin: 5px;
-  color: white;
+  color: #dfdbd8;
 }
 
 .skills {
@@ -82,3 +81,8 @@
   }
 }
 
+.pfp{
+  width: max(30vw, 300px);
+  border-radius: 15px;
+  box-shadow: #dfdbd8 0px 0px 10px 0px;
+}

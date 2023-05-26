@@ -1,6 +1,6 @@
 .navbar {
   width: 100%;
-  height: 100px;
+  height: 75px;
   background: #dfdbd8;
 }
 
@@ -10,11 +10,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: black;
+  color: #565c5e;
 }
 
 .navbar a {
-  color: black;
+  color: #565c5e;
   text-decoration: none;
   margin: 20px;
   font-size: 25px;
@@ -36,7 +36,7 @@
   margin-right: 20px;
   background-color: transparent;
   border: none;
-  color: black;
+  color: #565c5e;
   cursor: pointer;
 }
 

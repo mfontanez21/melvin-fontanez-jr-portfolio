@@ -1,15 +1,17 @@
 
 
-import "../../styles/Landing.css";
+import "../styles/Landing.css";
 
 
 const Landing = () => {
   return (
     <div className="home">
       <div className="about">
+      <img src="src/assets/temppic.jpg" className="pfp"/>
         <h2>Melvin Fontanez Jr</h2>
         <div className="prompt">
           {" "}
+          
           <p>
             I am a full-stack developer who combines my passion for building
             with creative problem-solving skills to deliver innovative and

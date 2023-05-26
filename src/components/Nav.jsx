@@ -1,6 +1,6 @@
 // npm modules
 import { NavLink, useLocation } from "react-router-dom"
-import {HashLink} from react
+import { HashLink } from "react-router-hash-link"
 
 // assets
 import "../styles/Nav.css"
@@ -27,10 +27,10 @@ const Nav = () => {
         </button>
       </div>
     <div className="links">
-      <NavLink to="/">Home</NavLink>
-      <NavLink to="/skills">Skills</NavLink>
-      <NavLink to="/portfolio">Portfolio</NavLink>
-      <NavLink to ="/experience">Experience</NavLink>
+      <HashLink smooth to="/">Home</HashLink>
+      <HashLink smooth to="/#skills">Skills</HashLink>
+      <HashLink smooth to="/#portfolio">Portfolio</HashLink>
+      <HashLink smooth to ="/#experience">Experience</HashLink>
     </div>
     </div>
   )
