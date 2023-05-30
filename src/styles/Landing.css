@@ -34,6 +34,7 @@
 
 .skills {
   font-size: 35px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -71,6 +72,7 @@
 
   .skills {
     text-align: center;
+    font-size: 30px;
   }
   .list {
     padding: 0;
@@ -79,6 +81,12 @@
   .skills h2 {
     font-size: 30px;
   }
+
+  .experience{
+    font-size: 20px;
+    width: 80%;
+  }
+
 }
 
 .pfp{
@@ -86,3 +94,22 @@
   border-radius: 15px;
   box-shadow: #dfdbd8 0px 0px 10px 0px;
 }
+
+.experience {
+  font-size: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #dfdbd8;
+  color: #455954;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.experience li {
+  list-style: circle;
+  width: 60%;
+  text-align: left;
+}
+

@@ -4,7 +4,7 @@ import "./PortfolioCard.css"
 const PortfolioCard = ({ website }) => {
   return ( 
     <div className="body">
-      <Link to={`${website.url}`} className="something">
+      <Link to={`${website.url}`} className="container">
         <img src={`${website.pic}`} className="pic"/>
         </Link>
         <h3>{website.name}</h3>

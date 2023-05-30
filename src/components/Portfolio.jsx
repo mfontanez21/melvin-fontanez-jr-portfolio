@@ -1,4 +1,5 @@
 import PortfolioCard from "./PortfolioCard/PortfolioCard";
+import { Link } from "react-router-dom";
 
 const Portfolio = () => {
 
@@ -28,10 +29,14 @@ const Portfolio = () => {
 ]
 
   return ( 
+    <div className="title">
+      <h1>Portfolio</h1>
     <div className="container">
+      <Link id="portfolio"/>
       {websites.map((website, idx) => (
         <PortfolioCard key={idx} website={website}/>
       ))}
+    </div>
     </div>
   );
 }
