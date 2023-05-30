@@ -42,10 +42,18 @@
   align-items: center;
   background-color: #dfdbd8;
   color: #455954;
+  margin: 0px;
+  padding: 0px;
+}
+
+.skills h2 {
+  color: #455954;
+  margin: 0px;
 }
 
 .skills h1 {
   color: #455954;
+  margin: 0px;
 }
 
 .skills .list {
@@ -54,10 +62,7 @@
   text-align: center;
 }
 
-.list span {
-  font-size: 20px;
-  text-align: center;
-}
+
 
 @media only screen and (max-width: 600px) {
   .about h2 {
@@ -107,9 +112,16 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.experience li {
-  list-style: circle;
-  width: 60%;
-  text-align: left;
+
+.text {
+  font-size: 20px;
 }
 
+.prompt {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.footer{
+  background-color: #455954;
+}

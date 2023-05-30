@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom"
 
+import "../styles/Landing.css"
+
 
 const Skills = () => {
   return(

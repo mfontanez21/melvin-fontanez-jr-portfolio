@@ -1,5 +1,5 @@
 // npm modules
-import { NavLink, useLocation } from "react-router-dom"
+import { useLocation } from "react-router-dom"
 import { HashLink } from "react-router-hash-link"
 
 // assets
