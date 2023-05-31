@@ -60,6 +60,7 @@
   list-style: none;
   width: 60%;
   text-align: center;
+  padding-inline-start: 0;
 }
 
 
@@ -75,13 +76,16 @@
     width: 80%;
   }
 
-  .skills {
+  .skills h1 {
     text-align: center;
     font-size: 30px;
   }
   .list {
     padding: 0;
+    padding-inline-start: 0;
   }
+
+  
 
   .skills h2 {
     font-size: 30px;
@@ -124,4 +128,9 @@
 
 .footer{
   background-color: #455954;
+}
+
+.item img{
+  margin: 5px;
+  border-radius: 5px;
 }
