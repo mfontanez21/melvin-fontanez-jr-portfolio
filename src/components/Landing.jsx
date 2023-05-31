@@ -1,13 +1,14 @@
 
-
 import "../styles/Landing.css";
+
+import pfp from "../assets/temppic.jpg"
 
 
 const Landing = () => {
   return (
     <div className="home">
       <div className="about">
-      <img src="src/assets/temppic.jpg" className="pfp"/>
+      <img src={pfp} className="pfp"/>
         <h2>Melvin Fontanez Jr</h2>
         <div className="prompt">
           {" "}

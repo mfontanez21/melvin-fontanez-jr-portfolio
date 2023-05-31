@@ -1,12 +1,16 @@
 import PortfolioCard from "./PortfolioCard/PortfolioCard";
 import { Link } from "react-router-dom";
 
+import nodeTendo from "../assets/nodetendo.png"
+import war from "../assets/war.png"
+import bamm from "../assets/bammvoyage.png"
+
 const Portfolio = () => {
 
   const websites = [{
     name: "The Rhythm of WAR!!",
     url: "https://therhythmofwar.netlify.app/",
-    pic: "src/assets/war.png",
+    pic: war,
     github: "https://github.com/mfontanez21/Medieval-War",
     flavor: "High-Fantasy themed version of the classic card game War against a virtual opponent"
   },
@@ -14,7 +18,7 @@ const Portfolio = () => {
   {
     name: "NodeTendo 64",
     url: "https://nodetendo64.fly.dev/",
-    pic: "src/assets/nodetendo.png",
+    pic: nodeTendo,
     github: "https://github.com/mfontanez21/NodeTendo64",
     flavor: "Retro Video Game collecting app oozing with nostalgic design"
   },
@@ -22,7 +26,7 @@ const Portfolio = () => {
   {
     name: "BAMM Voyage",
     url: "https://bamm-voyage.netlify.app/",
-    pic: "src/assets/bammvoyage.png",
+    pic: bamm,
     github: "https://github.com/mfontanez21/bamm-voyage-front-end",
     flavor: "Robust travel planning app for those with wanderlust"
   }
