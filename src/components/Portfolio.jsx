@@ -8,11 +8,13 @@ import bamm from "../assets/bammvoyage.png"
 const Portfolio = () => {
 
   const websites = [{
-    name: "The Rhythm of WAR!!",
-    url: "https://therhythmofwar.netlify.app/",
-    pic: war,
-    github: "https://github.com/mfontanez21/Medieval-War",
-    flavor: "High-Fantasy themed version of the classic card game War against a virtual opponent"
+
+    name: "BAMM Voyage",
+    url: "https://bamm-voyage.netlify.app/",
+    pic: bamm,
+    github: "https://github.com/mfontanez21/bamm-voyage-front-end",
+    flavor: "Robust travel planning app for those with wanderlust"
+
   },
 
   {
@@ -24,11 +26,11 @@ const Portfolio = () => {
   },
 
   {
-    name: "BAMM Voyage",
-    url: "https://bamm-voyage.netlify.app/",
-    pic: bamm,
-    github: "https://github.com/mfontanez21/bamm-voyage-front-end",
-    flavor: "Robust travel planning app for those with wanderlust"
+    name: "The Rhythm of WAR!!",
+    url: "https://therhythmofwar.netlify.app/",
+    pic: war,
+    github: "https://github.com/mfontanez21/Medieval-War",
+    flavor: "High-Fantasy themed version of the classic card game War against a virtual opponent"
   }
 ]
 

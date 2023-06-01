@@ -119,11 +119,14 @@
 
 .text {
   font-size: 20px;
+  word-wrap: break-word;
 }
 
 .prompt {
   text-align: center;
   margin-bottom: 20px;
+  width: 1000px;
+  overflow-wrap: break-word;
 }
 
 .footer{
@@ -134,3 +137,4 @@
   margin: 5px;
   border-radius: 5px;
 }
+
