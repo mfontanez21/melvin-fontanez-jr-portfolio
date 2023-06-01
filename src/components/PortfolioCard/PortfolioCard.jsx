@@ -9,7 +9,8 @@ const PortfolioCard = ({ website }) => {
         </Link>
         <h3>{website.name}</h3>
         <h4>{website.flavor}</h4>
-        <Link to={`${website.github}`}><h5>Github</h5></Link>
+        <h4>{website.tech}</h4>
+        <Link to={`${website.github}` } target="_blank" rel="noreferrer"><h5>Github</h5></Link>
     </div>
   );
 }

@@ -85,7 +85,12 @@
     padding-inline-start: 0;
   }
 
-  
+  .prompt {
+    text-align: center;
+    margin-bottom: 20px;
+    max-width: 90%;
+    overflow-wrap: normal;
+  }
 
   .skills h2 {
     font-size: 30px;
@@ -94,6 +99,11 @@
   .experience{
     font-size: 20px;
     width: 80%;
+  }
+
+  .text {
+    font-size: 20px;
+    overflow-wrap: break-word;
   }
 
 }
@@ -119,13 +129,13 @@
 
 .text {
   font-size: 20px;
-  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .prompt {
   text-align: center;
   margin-bottom: 20px;
-  width: 1000px;
+  width: 80%;
   overflow-wrap: break-word;
 }
 
@@ -138,3 +148,10 @@
   border-radius: 5px;
 }
 
+a:link {
+  color: #dfdbd8;
+}
+
+a:visited{
+  color: #dfdbd8
+}

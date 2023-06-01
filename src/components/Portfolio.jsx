@@ -12,6 +12,7 @@ const Portfolio = () => {
     name: "BAMM Voyage",
     url: "https://bamm-voyage.netlify.app/",
     pic: bamm,
+    tech: "JavaScript |  CSS | Express | Mongoose | Node.js | React | JSX",
     github: "https://github.com/mfontanez21/bamm-voyage-front-end",
     flavor: "Robust travel planning app for those with wanderlust"
 
@@ -21,6 +22,7 @@ const Portfolio = () => {
     name: "NodeTendo 64",
     url: "https://nodetendo64.fly.dev/",
     pic: nodeTendo,
+    tech: "JavaScript | HTML | CSS | Express | Mongoose | Node.js",
     github: "https://github.com/mfontanez21/NodeTendo64",
     flavor: "Retro Video Game collecting app oozing with nostalgic design"
   },
@@ -29,6 +31,7 @@ const Portfolio = () => {
     name: "The Rhythm of WAR!!",
     url: "https://therhythmofwar.netlify.app/",
     pic: war,
+    tech: "JavaScript | HTML | CSS",
     github: "https://github.com/mfontanez21/Medieval-War",
     flavor: "High-Fantasy themed version of the classic card game War against a virtual opponent"
   }
