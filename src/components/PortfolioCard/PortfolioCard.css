@@ -1,7 +1,6 @@
 .container {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content: center;
   position: relative;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;

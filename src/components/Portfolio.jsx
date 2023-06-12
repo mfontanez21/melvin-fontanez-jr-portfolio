@@ -4,15 +4,26 @@ import { Link } from "react-router-dom";
 import nodeTendo from "../assets/nodetendo.png"
 import war from "../assets/war.png"
 import bamm from "../assets/bammvoyage.png"
+import mem from '../assets/mem.png'
+
 
 const Portfolio = () => {
 
   const websites = [{
 
+    name: "MEM-Stack",
+    url: "https://mem-stack.netlify.app/",
+    pic: mem,
+    tech: "TypeScript | PostgreSQL | Express | Node.js | React",
+    github: "https://github.com/mfontanez21/MEM-Stack-Front-End",
+    flavor: "Yearbook app celebrating the GA SEI 3/20 cohort"
+
+  },
+    {
     name: "BAMM Voyage",
     url: "https://bamm-voyage.netlify.app/",
     pic: bamm,
-    tech: "JavaScript |  CSS | Express | Mongoose | Node.js | React | JSX",
+    tech: "JavaScript | CSS | Express | Mongoose | Node.js | React | JSX",
     github: "https://github.com/mfontanez21/bamm-voyage-front-end",
     flavor: "Robust travel planning app for those with wanderlust"
 
