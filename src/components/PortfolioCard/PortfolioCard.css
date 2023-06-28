@@ -60,6 +60,10 @@
   .title {
     font-size: 10px;
   }
+
+  .container{
+    flex-direction: column;
+  }
 }
 
 .title {
